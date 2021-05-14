@@ -1,6 +1,6 @@
 # CPE106L-B2_Group7_MP
 Members:
-   Carlos ANdrei Magahis,
+   Carlos Andrei Magahis,
    Mark Simons,
    Darryl Angelo Narvaez,
    John Dnaiel M Osmeña.
