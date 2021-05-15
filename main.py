@@ -13,19 +13,7 @@ import sqlite3
 
 
 
-def submit():
-    fname.destroy()
-    lname.destroy()
-    username.destroy()
-    password.destroy()
 
-    fnamel.destroy()
-    lnamel.destroy()
-    usernamel.destroy()
-    passwordl.destroy()
-
-    submitbtn.destroy()
-    frame1.destroy()
 
     frame2.grid(padx=10, pady=10)
 
