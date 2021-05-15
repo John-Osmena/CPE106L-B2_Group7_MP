@@ -5,64 +5,7 @@ import sqlite3
 
 # Database
 #
-# conn = sqlite3.connect('mp.db')
-#
-#
-# c = conn.cursor()
 
-
-
-
-
-
-    frame2.grid(padx=10, pady=10)
-
-
-
-
-#Event handler for signup
-def signup():
-    root.geometry("400x600")
-    loginbtn.destroy()
-    signupbtn.destroy()
-
-    fname.place(x=200, y=160, anchor=CENTER)
-    lname.place(x=200, y=190, anchor=CENTER)
-    username.place(x=200, y=220, anchor=CENTER)
-    password.place(x=200, y=250, anchor=CENTER)
-
-    fnamel.place(x=100, y=160, anchor=CENTER)
-    lnamel.place(x=100, y=190, anchor=CENTER)
-    usernamel.place(x=100, y=220, anchor=CENTER)
-    passwordl.place(x=100, y=250, anchor=CENTER)
-    submitbtn.place(x=200, y=280, anchor=CENTER)
-
-#Event handler for login
-def login():
-    root.geometry("400x600")
-    loginbtn.destroy()
-    signupbtn.destroy()
-
-    #placement of widgets
-    username.place(x=200, y=200, anchor=CENTER)
-    password.place(x=200, y=225, anchor=CENTER)
-
-    usernamel.place(x=100, y=200, anchor=CENTER)
-    passwordl.place(x=100, y=225, anchor=CENTER)
-
-    submitbtn.place(x=200, y=250, anchor=CENTER)
-
-
-def energy():
-    global enrgbtn
-    if enrgbtn == False:
-        enrgbtn = True
-    else:
-        enrgbtn = False
-
-
-
-def bpm():
     global bpmbtn
     if bpmbtn == False:
         bpmbtn = True
